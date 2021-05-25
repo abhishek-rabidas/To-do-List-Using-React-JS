@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+}
+
+#heading {
+  font-family: "Fredericka the Great", cursive;
+}
+
+#root {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+#input {
+  outline: none;
+  padding: 10px;
+  border: 0;
+  border-bottom: 3px dotted crimson;
+}
+
+#list {
+  background-color: crimson;
+  min-height: 50vh;
+  margin: auto;
+  width: 80%;
+  padding: 50px 20px;
+  margin-top: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-item {
+  text-align: left;
+  width: 70%;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Annie Use Your Telescope", cursive;
+  list-style: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Delete {
+  height: 30px !important;
+  cursor: pointer;
+}
+
+#btn {
+  display: inline-block;
+  width: 80px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: crimson;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .list-item {
+    width: 90%;
+  }
+
+  #input {
+    width: 55%;
+  }
+}
